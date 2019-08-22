@@ -1,12 +1,222 @@
-body {
-background: white ;
-margin: 0 px;
+@font-face{
+
+    font-family: theblodfont;
+    src: url(../fonts/theboldfont/theboldfont.ttf);
+
 }
 
-h1 h2 h3 h4 {
-letter-spacing :0.15 em;
-font-family:"pacifico",pacifico-local,Arial,cursive;
-font-color :rgba(0,0,0,.8);
-margin-right :20 px; 
-margin-left  :20 px;
+
+body {
+
+    margin: 0 px;
+
+}
+
+header{
+
+    width: 100 %;
+    height: 80 px;
+    background: rgb (63, 59, 59);
+    color: white;
+
+}
+
+header nav{
+
+    margin: 0 px;
+
+}
+
+header .first{
+
+    
+
+    padding-top: 10px;
+
+    float: left;
+
+    height: 70px;
+
+}
+
+header .first h1{
+
+    line-height: 0em;
+
+    margin-top: 3px;
+
+    margin-bottom: 2px;
+
+    padding: 10px;
+
+    font-family:  theblodfont;
+
+    font-size: 30px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 8px;
+
+}
+
+header .first h3{
+
+    margin: 0;
+
+    padding-left: 7px;
+
+    font-family: 'Lexend Zetta', sans-serif;
+
+    text-transform: uppercase;
+
+}
+
+nav ul li{
+
+    
+
+text-align: center;
+
+}
+
+
+
+nav ul{
+
+    margin-top: 0px;
+
+    padding-top: 30px;
+
+    display: flex;
+
+justify-content: center;
+
+justify-content: space-around;
+
+}
+
+
+
+a{
+
+    text-decoration: none;
+
+    color: black;
+
+    color: white;
+
+    font-family:  theblodfont;
+
+}
+
+a:hover{
+
+    border-bottom: solid 15px white;
+
+    transition: 0.3s;
+
+    color: aqua;
+
+    
+
+    
+
+}
+
+
+
+.container{
+
+    width: 100%;
+
+    height: 900px;
+
+    background-image: url('../images/chicago-skyline-engagement_0032.jpg');
+
+    background-size: 100%;
+
+    align-items: center;
+
+    display:flex;
+
+    justify-content: center;
+
+}
+
+.container>div{
+
+    background-color:rgba(134, 136, 10, 0.507);
+    width: 800 px;
+    height:600 px;
+    font-family:  theblodfont;
+    text-align: center;
+    color:rgb(241, 13, 13) ;
+    text-transform: uppercase;
+}
+
+
+
+.container>div>h1{
+
+    margin-bottom: 3px;
+
+    font-size: 38 px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 24 px;
+
+}
+
+
+
+.container>div>h2{
+
+    font-size: 42 px;
+
+    margin-top: 12 px;
+
+    font-family: 'Lexend Zetta', sans-serif;
+
+    letter-spacing: 10 px;
+
+    text-transform: uppercase;
+
+}
+
+.container>div>h4{
+
+    font-family: 'Lexend Zetta', sans-serif;
+
+    letter-spacing: 3.5 px;
+
+}
+
+.container>div>p{
+
+    padding: 12 px;
+
+    font-family: 'Lexend Zetta', sans-serif;
+
+}
+
+.container>div>.menu{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+}
+
+.container a{
+
+    border: 1 px   solid   gold;
+    padding: 10 px   40 px;
+    color: blue;
+}
+
+li{
+    list-style-type:none;
 }
