@@ -1,6 +1,12 @@
-h1 {
+body {
+background: white ;
+margin: 0 px;
+}
 
-font-family:"pacifico",Arial,cursive;
-background:grey ;
-
+h1 h2 h3 h4 {
+letter-spacing :0.15 em;
+font-family:"pacifico",pacifico-local,Arial,cursive;
+font-color :rgba(0,0,0,.8);
+margin-right :20 px; 
+margin-left  :20 px;
 }
